@@ -1,28 +1,12 @@
-.container
-  #header
-    %nav
-      %ul
-        %li gallery
-        %li about
-        %li testamonials
-        %li contact
-    %hr
-  .main
-    .sidebar
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-
-    .maincolumn
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-      = image_tag "middleman.png"
-  #footer
-    %hr
-    %ul
-      %li address
-      %li phonenumber
-      %li cellnumber
-      %li email address
+.maincolumn
+  .next_button
+    = link_to(image_tag('next-arrow.png'), 'gallery.html')
+  = image_tag "86th_Street_Residence.jpg", :class => "special"
+  = image_tag "86th_Street_Residence_1.jpg"
+  = image_tag "86th_Street_Residence_2.jpg"
+  = image_tag "86th_Street_Residence_6a.jpg"
+  = image_tag "86th_Street_Residence_8.jpg", :class => "special"
+  = image_tag "86th_Street_Residence_9.jpg"
+  = image_tag "East_End_Ave_Residence_3.jpg"
+  = image_tag "East_End_Ave_Residence_7.jpg"
+  = image_tag "East_End_Avenue_Residence2.jpg", :class => "special"

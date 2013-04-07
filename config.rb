@@ -41,11 +41,12 @@
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+  helpers do
+    def create_nav_item(name, url)
+    is_active = (name == url)
+    link = "<li class='#{is_active ? "active" : ""}'>" + link_to(name, url) + "</li>"
+  end
+  end
 
 set :css_dir, 'stylesheets'
 
