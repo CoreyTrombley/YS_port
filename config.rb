@@ -45,7 +45,7 @@
     def create_nav_item(name, url)
     is_active = (name == url)
     link = "<li class='#{is_active ? "active" : ""}'>" + link_to(name, url) + "</li>"
-  end
+    end
   end
 
 set :css_dir, 'stylesheets'

@@ -1,8 +1,4 @@
-/*
- *= require_self
- *= require fancybox
- *= require_tree .
- */
+
 
 .clearfix:after {
      visibility: hidden;
@@ -114,4 +110,31 @@ nav ul li.active {
   -o-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
   -webkit-transform:rotate(180deg);
+}
+
+.contact_box {
+  
+}
+
+
+
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
 }

@@ -56,6 +56,7 @@ GEM
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.9.1)
     multi_json (1.7.2)
+    newrelic_rpm (3.6.0.78)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -98,4 +99,5 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.0.12)
+  newrelic_rpm
   sprockets (~> 2.2.1)
