@@ -13,7 +13,7 @@ a {
   color: white;
 }
 hr {
-  border: 5px solid green;
+  border: 5px solid #15835E;
 }
 body {
   font-family: helvetica;
@@ -29,6 +29,7 @@ body {
 ul {
   list-style: none;
   text-align: center;
+  padding-left: 0;
 }
 ul li {
   display: inline;
@@ -38,25 +39,26 @@ ul li {
   margin: 10px;
 }
 nav ul li.active {
-  border-bottom: 5px solid green;
+  border-bottom: 5px solid #15835E;
 }
 .sidebar {
-  background: green;
+  background: #15835E;
   float: left;
-  width: 210px
+  width: 210px;
 }
 .sidebar img {
   margin: 0 10px 10px 0;
 }
 
 .maincolumn {
-  float: left;
-  width: 720px;
-  margin-left: 50px; 
+  float: right;
+  width: 674px;
+  /*background: white;*/
+  /*color: black;*/
 }
 .logo {
   background: url(../images/pattern1.jpg);
-  height:210px;
+  height:200px;
   width: 210px;
   margin-bottom: 10px;
   text-align: center;
@@ -65,15 +67,16 @@ nav ul li.active {
   margin: 0;
   font-size: 2.25em;
   padding: 70px 0 0 0;
-  color:green;
+  color:#15835E;
 }
 .logo h3 {
-  color: green;
+  color: #15835E;
   padding: 0;
   margin: 0;
 }
 .imagegroup1{
   width: 210px;
+  height: 210px;
 }
 .imagegroup1 img {
   display: inline;
@@ -84,7 +87,8 @@ nav ul li.active {
 .maincolumn img {
   height: 200px;
   width: 200px;
-  margin: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
 .maincolumn img.special {
   width: 250px;
