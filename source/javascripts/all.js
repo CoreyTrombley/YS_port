@@ -11,5 +11,11 @@ $(document).ready(function() {
       prevEffect  : 'none',
       padding     : 0,
       margin      : [20, 60, 20, 60]
+    });
+
+  $('nav ul li a').click(function() {
+    $('nav ul li').removeClass("active");
+    $(this).addClass('active');
   });
+
 });

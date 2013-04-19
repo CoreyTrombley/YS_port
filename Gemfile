@@ -11,5 +11,6 @@ group :development do
   gem "heroku"
   gem "watchr"
   gem "rb-fsevent"
+  gem 'pry'
   gem "growl_notify"
 end

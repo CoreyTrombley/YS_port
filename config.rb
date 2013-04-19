@@ -36,15 +36,14 @@
 ###
 # Helpers
 ###
-
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
   helpers do
     def create_nav_item(name, url)
-    is_active = (name == url)
-    link = "<li class='#{is_active ? "active" : ""}'>" + link_to(name, url) + "</li>"
+      is_active = (current_path == url)
+      "<li class='#{is_active ? "active" : ""}'>" + link_to(name, url) + "</li>"
     end
   end
 
