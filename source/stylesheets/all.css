@@ -19,7 +19,7 @@ a {
 a:hover {  /* new */
   color: #ccff00;
 }
-.onpage { /* new */
+.active { /* new */
   color: #ffffff;
 }
 #header { /* new */
