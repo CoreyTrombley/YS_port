@@ -76,6 +76,7 @@ GEM
     mime-types (1.22)
     multi_json (1.7.2)
     netrc (0.7.7)
+    newrelic_rpm (3.6.2.96)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -134,6 +135,7 @@ DEPENDENCIES
   growl_notify
   heroku
   middleman (~> 3.0.12)
+  newrelic_rpm
   pry
   rb-fsevent
   sprockets (~> 2.2.1)
